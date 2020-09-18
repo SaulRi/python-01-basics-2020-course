@@ -1,6 +1,5 @@
 # Project 1 : 🖥️
 
-## Ariadne best practices
 ## first project with virtual environment
 
 ## Topics

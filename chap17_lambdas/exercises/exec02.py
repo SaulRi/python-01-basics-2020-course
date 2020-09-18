@@ -34,9 +34,7 @@ def get_animal_tup(animal):
 
 
 def build_zoo( zoo, animal ):
-    #print( f"zoo is {zoo}" )
-    #print( f"animal is {animal}" )
-
+    
     diet = animal["diet"] 
 
     if diet in zoo :

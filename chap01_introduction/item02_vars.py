@@ -27,6 +27,3 @@ my_numbers = [ 1,2,3,4,5,6 ]
 
 # Example
 print( "The value of my_name: ",  my_name )
-
-
-
