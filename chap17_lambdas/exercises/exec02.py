@@ -29,3 +29,29 @@ print()
     } 
 }
 """
+def get_animal_tup(animal):
+    return ( animal['emoji'], animal['type'], animal['name'] )
+
+
+def build_zoo( zoo, animal ):
+    #print( f"zoo is {zoo}" )
+    #print( f"animal is {animal}" )
+
+    diet = animal["diet"] 
+
+    if diet in zoo :
+        zoo_element = zoo[diet]
+        total = zoo_element['total'] 
+        zoo_element['total'] = total + 1
+        zoo_element['animals'].append( get_animal_tup(animal) )
+    else:
+        zoo[diet] = {
+            "total" : 1,
+            "animals": [ get_animal_tup(animal)  ]
+        }
+
+    return zoo    
+
+
+zoo_resume = reduce(  build_zoo, animal_list, {} )
+print( f"the zoo is { zoo_resume }" )

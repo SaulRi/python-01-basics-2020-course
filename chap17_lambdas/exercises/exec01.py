@@ -10,3 +10,7 @@ print()
 """
  Formula is   F = 9/5* C + 32
 """
+get_farenheit =  lambda  data_tup: ( data_tup[0], (9/5)*data_tup[1] + 32 )
+
+farenheit_list = list( map( get_farenheit, celcius_list ) )
+print( f"Farenheit list { farenheit_list }" )
