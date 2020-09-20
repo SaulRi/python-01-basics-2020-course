@@ -7,6 +7,10 @@ Python has functions for creating, reading, updating and deleting files
 JSON: Stands for JavaScript Object Notation, is commonly used with data APIs. In Python we can parse JSON into a Python dictionary.
 
 
+## CSV Files
+
+- [First 10 years of Google stock](https://goo.gl/3zaUlD)
+
 
 
 ## Online resources

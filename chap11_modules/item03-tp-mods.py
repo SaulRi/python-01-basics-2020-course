@@ -1,9 +1,16 @@
-# Activity : Depends on our Operative system, execute the init method
+# Third party modules
+
+"""
+Check https://pypi.org/
+Install  colorama by pip or pip3
+"""
 
 from colorama import Fore, Style, init
 import platform
 
 my_system = platform.system()
+
+## this is a ternary if
 is_windows = True if my_system == 'Windows' else False
 
 # Use convert True for windows systems
