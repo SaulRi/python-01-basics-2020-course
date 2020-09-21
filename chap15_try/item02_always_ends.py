@@ -1,6 +1,7 @@
+
 from try_logger import logger
 
-#
+# 
 try:
     logger.info( "Result {0} / {1}".format( 5, 0 )   )
     print( f"Result 5 /0 = { 5/0 }" )

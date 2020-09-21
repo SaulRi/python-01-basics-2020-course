@@ -1,3 +1,6 @@
 *.txt
 *.log
 *.csv
+
+__pycache__
+logs

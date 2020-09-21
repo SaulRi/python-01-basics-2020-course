@@ -17,4 +17,4 @@
 
 ## Resources
 
-- [Edureka: PyDoc](https://www.youtube.com/watch?v=URBSvqib0xw&list=PLi01XoE8jYohWFPpC17Z-wWhPOSuh8Er-&index=25)
+- [Socratica: PyDoc](https://www.youtube.com/watch?v=URBSvqib0xw&list=PLi01XoE8jYohWFPpC17Z-wWhPOSuh8Er-&index=25)
