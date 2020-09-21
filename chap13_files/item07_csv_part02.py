@@ -13,12 +13,6 @@ header = next( reader )
 # iterate the rows to get the data
 raw_data =  [ row for row in reader  ]
 
-print( f"Header is:{header}. \n" )
-
-for row  in raw_data:
-    print( row )
-
-print()
 
 ## but all data is string, we need to format data
 data = []
@@ -35,10 +29,22 @@ for row in raw_data:
     data.append( [ date, open_price, high, low, close, volume, adj_close ] )
 
 
+print( "Header" )
+print( header )
+
+
+print("Raw data is")
+for row  in raw_data:
+    print( row )
+print()
+
+
+print("Data with type is")
 for row in data:
     print( row )
 
 print()
+
 
 for index in range( len( data )  ):
     print(  f"Index = {index} and data is: { data[index] }"  )

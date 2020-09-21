@@ -6,7 +6,7 @@ number_lines = len( lines )
 print("Data is")
 for current in lines:
     print( current )
-
+print()
 print( f"\nNumber of lines are {number_lines}" )
 
 raw_header = lines[0]
