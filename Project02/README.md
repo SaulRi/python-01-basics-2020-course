@@ -5,7 +5,6 @@ Trust, but verify with Unit Testing.
 
 ## Assigments
 
-# Use virtual environment to put your functions in a distinct folder of your tests
 
 
 ## Youtube Resources
