@@ -2,8 +2,9 @@
 import sys
 import os
 
-sys.path.append( '../try_logger' )
+sys.path.insert( 0, '../' )
 
+## Ignore warning
 from try_logger import logger
 
 ## Print hello world five times
