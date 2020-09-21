@@ -22,7 +22,7 @@
 
 ## Our Projects
 1. Setting Virtual environments
-1. Testing Fundamental
+1. Testing Fundamentals
 1. First steps with Git and GitHub
 
 ## Extras
