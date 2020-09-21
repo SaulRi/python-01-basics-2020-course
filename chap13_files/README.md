@@ -7,6 +7,10 @@ Python has functions for creating, reading, updating and deleting files
 JSON: Stands for JavaScript Object Notation, is commonly used with data APIs. In Python we can parse JSON into a Python dictionary.
 
 
+## Stack Overflow
+ -[Best practices for adding .gitignore file for Python projects?](https://stackoverflow.com/questions/3719243/best-practices-for-adding-gitignore-file-for-python-projects)
+
+
 ## CSV Files
 
 - [First 10 years of Google stock](https://goo.gl/3zaUlD)
