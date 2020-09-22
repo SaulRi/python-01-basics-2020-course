@@ -10,9 +10,7 @@
     - brew install pipenv
 * Create virtual environment
 
-* Configurations and tips for vscode
-
-* definir estructuras de carpetas
+* Make a CRUD project to read in CSV and JSON File
 
 
 ## Resources

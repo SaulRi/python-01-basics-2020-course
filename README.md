@@ -20,10 +20,14 @@
 1. Functional Programming Fundamentals
 1. Lambdas and Hight Order Functions
 
-## Our Projects
+## CRUD Project
+
+In this terminal-based project, work in an basic CRUD application.
+That reads and modify a CSV and a JSON File
+
 1. Setting Virtual environments
 1. Testing Fundamentals
-1. File Project
+1. Solve Issues
 
 
 ## Extras

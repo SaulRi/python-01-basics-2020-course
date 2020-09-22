@@ -1,12 +1,15 @@
 
-### creating some variables
+## Shopping cart
+
+## Think in e commerce (amazon, wallmart, any on line store) a define variables you will need for
+
+## display products
 
 
-## create an array call paired_number with the values  2, 4, 8, 90, 46, 78
+## display product details
 
 
-## create a boolean variable called is_valid with the value "true"
+## create an account
 
 
-## create a boolean varaible called is_actived with the value "false"
-
+## create a wish list

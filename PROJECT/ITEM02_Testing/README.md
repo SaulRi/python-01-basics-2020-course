@@ -5,6 +5,8 @@ Trust, but verify with Unit Testing.
 
 ## Assigments
 
+- Make unit testing of your project
+- Add loggers to see relevant information
 
 
 ## Youtube Resources

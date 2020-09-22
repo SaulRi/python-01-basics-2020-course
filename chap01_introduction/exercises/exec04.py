@@ -1,15 +1,15 @@
+## School
 
-## Shopping cart
-
-## Think in e commerce (amazon, wallmart, any on line store) a define variables you will need for
-
-## display products
+## You are writing a application for a school (Maybe your school) what variables do you need for:
 
 
-## display product details
+## Signup a new student
 
 
-## create an account
+## Login a student
 
 
-## create a wish list
+## display your schedule for this week
+
+
+## Send your homework (subject, homework content, teache, title, etc)
