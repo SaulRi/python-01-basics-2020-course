@@ -13,6 +13,8 @@
 
 * [Real Python 🐍](https://realpython.com/ "Real Python Tutorials")
 
+* [stack**overflow** 📚](https://stackoverflow.com/`)
+
 * [Emoji pedia 😁](https://emojipedia.org/)
 
 ---
