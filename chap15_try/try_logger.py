@@ -16,7 +16,7 @@ logging.basicConfig(
     filename=log_path, 
     format=LOG_FORMAT,
     level=logging.DEBUG,    
-    filemode= 'w' )
+    filemode= 'a' )
 
 ## create the root logger
 logger = logging.getLogger()

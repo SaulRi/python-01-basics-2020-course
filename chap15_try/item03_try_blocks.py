@@ -7,9 +7,10 @@ def read_file_timed(path):
     start_time = time.time()
     
     try:
-        file = open(path, mode="rb")
-        print( f"Data (Binary) of {path} is { file.read() }" )
+        file = open(path, mode="r" )
+        print( f"Data of {path} is { file.read() }" )
     except FileNotFoundError as error:
+        print( f"oops with {path}" )
         logger.error( f"Error is {error}" )
     else:
         logger.info( f"If no error  close the file {path} " )
@@ -22,4 +23,7 @@ def read_file_timed(path):
 
 if __name__ == '__main__':    
     read_file_timed( 'data.txt' )
-    read_file_timed( 'data2.txt' )    
+    print()
+
+    read_file_timed( 'imaginary_file.txt' ) 
+    print()   

@@ -28,6 +28,17 @@ print(  sayHello("Tony") )
 print(  sayHello("Leo"), "\n" ) 
 
 
+def sayBye(name="Baby"):
+    """ 
+    Just a bye function
+    :param str name: The name in the function   
+    :return: The concatenated string to say hello and the name
+    """
+    return f"Hasta la vista {name}"
+
+
+
+
 """
 First class object, is an entity dynamically created, destroy.
 it means there are no restrictions on the object's use. It's the same as any other objec
@@ -49,10 +60,31 @@ print( f"second item is { execution_list[1] }"  )
 
 # and can execute each function
 print( f"Execution first item: { execution_list[0](50)   }"  )
-print( f"Execution of second item is { execution_list[1]( 'Peter' ) }"  )
+print( f"Execution of second item is { execution_list[1]( 'Peter' ) }\n"  )
 
 
 ## pass a function like argument of a function
 
+def get_functions( function01, function02  ):
+    """ This function received two functions  """
+    
+    ## those arguments are callable objects
+    function01()
+    function02()
 
 
+f01 = lambda : print("Hello World")
+f02 = lambda : print("Good By")
+print( f"The type of f01 is { type(f01) } and the type of f02 { type(f02) } \n" )
+get_functions( f01, f02 )
+print()
+
+
+def execute( some_function  ):
+    return some_function("Daniel San")
+
+answer1 = execute( sayHello )
+answer2 = execute( sayBye )
+
+print( f"The answer1 of sending sayHello is {answer1}"  )
+print( f"The answer2 of sending sayBay is {answer2}  \n"  )
