@@ -1,3 +1,8 @@
+# Ignore configuration IDE files
+
+.idea
+.vscode
+
 *.txt
 *.log
 *.csv

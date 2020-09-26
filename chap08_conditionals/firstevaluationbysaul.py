@@ -1,22 +1,3 @@
-
-## OR
-print("Or")
-print( f"5 > 500 or 5 == 5   : { 5 > 500 or 5 == 5 } " )
-print( f"5 > 500 or 5 != 5   : { 5 > 500 or 5 != 5 } \n" )
-
-
-## AND
-print("And")
-print( f"5 == 5 and 1 == 1   :  { 5 == 5 and 1 == 1  } " )
-print( f"5 == 5 and 1 == 5   :  { 5 == 5 and 1 == 5  } " )
-print( f"5 > 500 and 5 == 5  :  { 5 > 500 and 5 == 5 } " )
-print( f"5 > 500 and 5 != 5  :  { 5 > 500 and 5 != 5 } \n" )
-
-## NOT
-# not
-
-# Actividad 1
-
 #
 selected = input('Type d for collection with data, e for empty or n for null')
 
